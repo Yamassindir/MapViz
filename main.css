@@ -1,0 +1,79 @@
+html{
+    height : 100%;
+    padding : 0;
+    margin : 0;
+}
+body{
+    height : 100%;
+    padding : 0;
+    margin : 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size : 14px;
+}
+
+.fs{
+    height : 100vh;
+}
+
+#menu{
+    position : fixed;
+    z-index : 1001;
+    top : 0;
+    bottom : 0;
+    width : 250px;
+    background : #fff;
+}
+#map{
+    position : fixed;
+    top : 0;
+    left : 0;
+    right : 0px;
+    bottom : 0;
+}
+
+
+.legend {
+    line-height: 18px;
+    color: #555;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    }
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.99;
+}
+
+.leaflet-popup{
+    min-width : 100px;
+}
+.leaflet-popup-content-wrapper{
+    border-radius : 0;
+    padding : 0;
+}
+.leaflet-popup-content{
+    margin : 0;
+}
+.pop-header{
+    padding : 10px 20px;
+    text-align : center;
+    text-transform : uppercase;
+    background : #a19f9f;
+    color : #fff;
+    font-weight : bolder;
+
+}
+.pop-content{
+    padding : 10px 25px;
+    text-align : center;
+}
+
+.fa-sync{
+    margin-left: 20px;
+}
